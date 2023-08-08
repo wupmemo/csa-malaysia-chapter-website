@@ -13,8 +13,9 @@ export default function Home() {
       <main>
         <Header title="Welcome to Mekaniku!" />
         <p className="description">
-          Empowering Car Owners in Malaysia via affordable quality spare parts.
+          Something awesome for Car Owners, Mechanics & Spare Part Shop All over Malaysia, Stay Tuned.
         </p>
+        <img src="./logo.png" />
       </main>
 
       <Footer />
