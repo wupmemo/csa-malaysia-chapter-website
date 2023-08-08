@@ -10,18 +10,17 @@ export default function Home() {
         <title>COMMING SOON</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
-        <Header title="Welcome to Mekaniku!" />
-        <p className="description">
-          Something awesome for Car Owners, Mechanics & Spare Part Shop All over Malaysia, Stay Tuned.
-        </p>
+        <Header />
         <Image
           src="/logo.png"
           width={400}
           height={400}
           alt="Picture of the Mekaniku"
         />
+        <p className="description">
+          Something awesome for Car Owners, Mechanics & Spare Part Shop All over Malaysia, Stay Tuned.
+        </p>
       </main>
 
       <Footer />
